@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 5, b = 10;
+    float result;
+    /*
+       this is multi-line comment
+    */
+    // This is a single-line comment
+    result = a + b * 2.5;
+
+    if (result > 20) {
+        cout << "Result is greater than 20" << endl;
+    } else {
+        cout << "Result is 20 or less" << endl;
+    }
+
+    return 0;
+}
